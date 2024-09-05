@@ -16,19 +16,20 @@ For the first week of Metropolitan Data 1 we took a look at the first steps in P
 - It loops over the sequence and stores each number as the key of an entry in the dictionary, assigning either "odd" or "even" to the value, depending on the type of number.
 
 - Returns the dictionary.
-
-      def define_even_or_odd(len_seq):
+```
+def define_even_or_odd(len_seq):
   
-          even_odd_dict = {}
+      even_odd_dict = {}
   
-          for i in range(0, len_seq + 1):
+      for i in range(0, len_seq + 1):
       
-              if i % 2 == 0:
+            if i % 2 == 0:
                   even_odd_dict[i] = "even"
-              else:
+            else:
                   even_odd_dict[i] = "odd"
   
-          return even_odd_dict
+      return even_odd_dict
+  ```
 ___
 ### Exercise 2
 **Create a tuple called `tup` with the following seven objects:**
